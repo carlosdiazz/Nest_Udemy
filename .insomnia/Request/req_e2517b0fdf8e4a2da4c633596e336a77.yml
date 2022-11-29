@@ -1,0 +1,25 @@
+_id: req_e2517b0fdf8e4a2da4c633596e336a77
+type: Request
+parentId: fld_abf3811c35cf4196afb195fbef4b8b06
+modified: 1669758010384
+created: 1669757768968
+url: "{{ _.URL }}/cars/f452c5e5-f83b-41da-a2fc-4787bd48ce6b"
+name: deleteCar
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669736636284.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

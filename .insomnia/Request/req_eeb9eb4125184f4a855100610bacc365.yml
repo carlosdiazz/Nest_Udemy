@@ -1,0 +1,28 @@
+_id: req_eeb9eb4125184f4a855100610bacc365
+type: Request
+parentId: fld_abf3811c35cf4196afb195fbef4b8b06
+modified: 1669758007825
+created: 1669757125093
+url: "{{ _.URL }}/cars/6c27580b-bd6e-4127-ba62-7bd7c1b1f026"
+name: updateCar
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"brand":"Toyota 2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669736636303
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

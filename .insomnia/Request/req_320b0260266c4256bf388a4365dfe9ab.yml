@@ -1,0 +1,21 @@
+_id: req_320b0260266c4256bf388a4365dfe9ab
+type: Request
+parentId: fld_abf3811c35cf4196afb195fbef4b8b06
+modified: 1669758015462
+created: 1669757994273
+url: "{{ _.URL }}/cars/"
+name: getOneCar
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669736636290.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

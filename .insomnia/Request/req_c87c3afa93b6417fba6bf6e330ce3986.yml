@@ -1,0 +1,29 @@
+_id: req_c87c3afa93b6417fba6bf6e330ce3986
+type: Request
+parentId: fld_abf3811c35cf4196afb195fbef4b8b06
+modified: 1669758002846
+created: 1669748443712
+url: "{{ _.URL }}/cars"
+name: createCar
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"brand":"Honda",
+    	"model":"Azul"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669736636328
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
