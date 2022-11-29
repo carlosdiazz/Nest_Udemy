@@ -28,3 +28,19 @@ $ pnpm run start:dev
 # production mode
 $ pnpm run start:prod
 ```
+
+## 4. Comandos Basicos del Cli de Nest
+
+- nest -h                           : Ver Comandos de Nest
+- nest g mo path/name               : Generar un Modulo
+- nest g co path/name               : Generar un Controlador
+- nest g
+
+
+## 5. Bibliotecas usadas para este projecto
+- pnpm i uuid
+- pnpm i webpack@^5.0.0
+- pnpm i class-validator class-transformer
+
+## 6. Depedencia de Desarrollo
+- pnpm i --save-dev @types/uuid
