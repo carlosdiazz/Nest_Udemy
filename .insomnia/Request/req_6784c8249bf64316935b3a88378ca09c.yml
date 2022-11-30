@@ -1,0 +1,21 @@
+_id: req_6784c8249bf64316935b3a88378ca09c
+type: Request
+parentId: fld_e1c7aef6737a4c4e87fbed6652d3b88b
+modified: 1669817804636
+created: 1669817755472
+url: "{{ _.URL }}/brands"
+name: getAllCar
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669736636278
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

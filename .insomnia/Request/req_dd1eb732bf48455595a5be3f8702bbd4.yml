@@ -1,9 +1,9 @@
-_id: req_eeb9eb4125184f4a855100610bacc365
+_id: req_dd1eb732bf48455595a5be3f8702bbd4
 type: Request
-parentId: fld_abf3811c35cf4196afb195fbef4b8b06
-modified: 1669821021078
-created: 1669757125093
-url: "{{ _.URL }}/cars/6c27580b-bd6e-4127-ba62-7bd7c1b1f026"
+parentId: fld_e1c7aef6737a4c4e87fbed6652d3b88b
+modified: 1669819486062
+created: 1669817755481
+url: "{{ _.URL }}/brands/32e9bf31-2f38-4957-81ec-a8e750d11f69"
 name: updateCar
 description: ""
 method: PUT
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"brand":"Toyota 2"
+    	"name":"Toyota 2"
     }
 parameters: []
 headers:

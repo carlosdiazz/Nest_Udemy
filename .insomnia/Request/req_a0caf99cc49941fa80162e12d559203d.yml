@@ -1,24 +1,24 @@
-_id: req_eeb9eb4125184f4a855100610bacc365
+_id: req_a0caf99cc49941fa80162e12d559203d
 type: Request
-parentId: fld_abf3811c35cf4196afb195fbef4b8b06
-modified: 1669821021078
-created: 1669757125093
-url: "{{ _.URL }}/cars/6c27580b-bd6e-4127-ba62-7bd7c1b1f026"
-name: updateCar
+parentId: fld_e1c7aef6737a4c4e87fbed6652d3b88b
+modified: 1669819365527
+created: 1669817755477
+url: "{{ _.URL }}/brands"
+name: createCar
 description: ""
-method: PUT
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"brand":"Toyota 2"
+    	"name":"Prueba"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1669736636303
+metaSortKey: -1669736636328
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,24 +1,21 @@
-_id: req_eeb9eb4125184f4a855100610bacc365
+_id: req_8aa2401f1b414a55af78aa48030be7fa
 type: Request
-parentId: fld_abf3811c35cf4196afb195fbef4b8b06
-modified: 1669821021078
-created: 1669757125093
-url: "{{ _.URL }}/cars/6c27580b-bd6e-4127-ba62-7bd7c1b1f026"
-name: updateCar
+parentId: fld_e1c7aef6737a4c4e87fbed6652d3b88b
+modified: 1669818684602
+created: 1669817755485
+url: "{{ _.URL }}/brands/b25d675e-cbc2-4981-8f0c-947160f2be26"
+name: deleteCar
 description: ""
-method: PUT
+method: DELETE
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"brand":"Toyota 2"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1669736636303
+metaSortKey: -1669736636284.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
