@@ -1,17 +1,17 @@
-_id: req_320b0260266c4256bf388a4365dfe9ab
+_id: req_80f61ab06fb64adda44102fcb321fbba
 type: Request
-parentId: fld_abf3811c35cf4196afb195fbef4b8b06
-modified: 1669838864781
-created: 1669757994273
-url: "{{ _.URL }}/api/cars/"
-name: getOneCar
+parentId: fld_83b6efda871c46e581de4e9ff5fc3031
+modified: 1669842596386
+created: 1669826001299
+url: "{{ _.URL }}/api/pokemon/6d"
+name: getOnePokemon
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1669736636290.5
+metaSortKey: -1669825950883
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,10 +1,10 @@
 _id: req_a0caf99cc49941fa80162e12d559203d
 type: Request
 parentId: fld_e1c7aef6737a4c4e87fbed6652d3b88b
-modified: 1669819365527
+modified: 1669838825148
 created: 1669817755477
-url: "{{ _.URL }}/brands"
-name: createCar
+url: "{{ _.URL }}/api/brands"
+name: createBrand
 description: ""
 method: POST
 body:

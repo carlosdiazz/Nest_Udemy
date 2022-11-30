@@ -1,17 +1,17 @@
-_id: req_320b0260266c4256bf388a4365dfe9ab
+_id: req_09496ca59eac4246a62b06499366d479
 type: Request
-parentId: fld_abf3811c35cf4196afb195fbef4b8b06
-modified: 1669838864781
-created: 1669757994273
-url: "{{ _.URL }}/api/cars/"
-name: getOneCar
+parentId: wrk_beaaf976cdb74600b93c617f7874076e
+modified: 1669838907114
+created: 1669825899866
+url: "{{ _.URL }}"
+name: /
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1669736636290.5
+metaSortKey: -1669825954877
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

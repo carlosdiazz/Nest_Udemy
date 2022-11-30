@@ -1,10 +1,10 @@
 _id: req_8aa2401f1b414a55af78aa48030be7fa
 type: Request
 parentId: fld_e1c7aef6737a4c4e87fbed6652d3b88b
-modified: 1669818684602
+modified: 1669838837822
 created: 1669817755485
-url: "{{ _.URL }}/brands/b25d675e-cbc2-4981-8f0c-947160f2be26"
-name: deleteCar
+url: "{{ _.URL }}/api/brands/b25d675e-cbc2-4981-8f0c-947160f2be26"
+name: deleteBrand
 description: ""
 method: DELETE
 body:

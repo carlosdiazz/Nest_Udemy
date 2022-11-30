@@ -1,25 +1,24 @@
-_id: req_c87c3afa93b6417fba6bf6e330ce3986
+_id: req_5d63b46026e74dd79fd91213541832dc
 type: Request
-parentId: fld_abf3811c35cf4196afb195fbef4b8b06
-modified: 1669838849847
-created: 1669748443712
-url: "{{ _.URL }}/api/cars"
-name: createCar
+parentId: fld_83b6efda871c46e581de4e9ff5fc3031
+modified: 1669843120876
+created: 1669826040905
+url: "{{ _.URL }}/api/pokemon/6387b3c78332698c36c36866"
+name: updatePokemon
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    	"brand":"Honda",
-    	"model":"Azul"
+    	"name":"Diaz"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1669736636328
+metaSortKey: -1669825933231
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

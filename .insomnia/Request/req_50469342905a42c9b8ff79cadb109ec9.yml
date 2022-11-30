@@ -1,9 +1,9 @@
 _id: req_50469342905a42c9b8ff79cadb109ec9
 type: Request
 parentId: fld_abf3811c35cf4196afb195fbef4b8b06
-modified: 1669758000330
+modified: 1669838879181
 created: 1669736636278
-url: "{{ _.URL }}/cars"
+url: "{{ _.URL }}/api/cars"
 name: getAllCar
 description: ""
 method: GET

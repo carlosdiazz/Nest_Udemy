@@ -1,10 +1,10 @@
 _id: req_dd1eb732bf48455595a5be3f8702bbd4
 type: Request
 parentId: fld_e1c7aef6737a4c4e87fbed6652d3b88b
-modified: 1669819486062
+modified: 1669838829897
 created: 1669817755481
-url: "{{ _.URL }}/brands/32e9bf31-2f38-4957-81ec-a8e750d11f69"
-name: updateCar
+url: "{{ _.URL }}/api/brands/32e9bf31-2f38-4957-81ec-a8e750d11f69"
+name: updateBrand
 description: ""
 method: PUT
 body:

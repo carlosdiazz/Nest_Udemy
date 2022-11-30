@@ -1,10 +1,10 @@
 _id: req_5b880ef5a9244265b6755f2f4cebd139
 type: Request
 parentId: fld_e1c7aef6737a4c4e87fbed6652d3b88b
-modified: 1669817811756
+modified: 1669838833853
 created: 1669817755490
-url: "{{ _.URL }}/brands/"
-name: getOneCar
+url: "{{ _.URL }}/api/brand"
+name: getOneBrand
 description: ""
 method: GET
 body: {}

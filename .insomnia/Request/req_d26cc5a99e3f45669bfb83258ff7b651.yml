@@ -1,17 +1,17 @@
 _id: req_d26cc5a99e3f45669bfb83258ff7b651
 type: Request
-parentId: wrk_beaaf976cdb74600b93c617f7874076e
-modified: 1669821710172
+parentId: fld_e34583e360e049e9b05588b87a336263
+modified: 1669838899388
 created: 1669821014508
-url: "{{ _.URL }}/seeed "
-name: seed
+url: "{{ _.URL }}/api/seeed "
+name: seedPrueba
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1669821014508
+metaSortKey: -1669757998470
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
