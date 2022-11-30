@@ -1,7 +1,7 @@
 import { v4 as uuid } from 'uuid';
 import * as Faker from 'faker';
 
-import { Brand } from './../../brands/brand.entity';
+import { Brand } from '../../components/brands/brand.entity';
 
 export const BRANDS_SEED: Brand[] = [
   {

@@ -14,6 +14,12 @@ async function main() {
     }),
   );
 
-  await app.listen(3000);
+  app.setGlobalPrefix('api'); //Aqui expecifico que todas mis rutas comenzaran con API
+
+  await app.listen(process.env.PORT || 3000, () => {
+    console.log(
+      `👍El server esta arriba en el puerto: ${process.env.PORT || 3000} 👍💪`,
+    );
+  });
 }
 main();

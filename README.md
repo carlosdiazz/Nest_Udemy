@@ -10,10 +10,15 @@
 
 Esto es una prueba del curso tommado por fernando herrera sobre Nest en Udemy
 
-## 2. Installation
-
+## 2. Installation Dev
+1. Instalar las librerias
 ```bash
 $ pnpm install
+```
+
+2. Subir la base de dato
+```bash
+$ docker-compose up -d
 ```
 
 ## 3. Running the app
@@ -34,13 +39,21 @@ $ pnpm run start:prod
 - nest -h                           : Ver Comandos de Nest
 - nest g mo path/name               : Generar un Modulo
 - nest g co path/name               : Generar un Controlador
-- nest g
+- nest g pipe path/name             : Generar un Pipe
 
 
 ## 5. Bibliotecas usadas para este projecto
-- pnpm i uuid
-- pnpm i webpack@^5.0.0
-- pnpm i class-validator class-transformer
+```bash
+$ pnpm i uuid
+$ pnpm i webpack@^5.0.0
+$ pnpm i class-validator class-transformer
+$ pnpm i faker@5.5.3
+$ pnpm i @nestjs/serve-static
+$ pnpm install --save @nestjs/mongoose mongoose
+```
 
 ## 6. Depedencia de Desarrollo
-- pnpm i --save-dev @types/uuid
+```bash
+$ pnpm i --save-dev @types/uuid
+$ pnpm i @types/faker@5.5.9
+```

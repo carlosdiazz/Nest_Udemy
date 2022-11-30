@@ -2,8 +2,8 @@ import { Module } from '@nestjs/common';
 import { SeeedService } from './seeed.service';
 import { SeeedController } from './seeed.controller';
 
-import { CarsModule } from './../cars/cars.module';
-import { BrandsModule } from './../brands/brands.module';
+import { CarsModule } from '../components/cars/cars.module';
+import { BrandsModule } from '../components/brands/brands.module';
 
 @Module({
   imports: [CarsModule, BrandsModule],
