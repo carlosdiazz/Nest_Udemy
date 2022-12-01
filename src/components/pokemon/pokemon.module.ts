@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
-import { MongooseModule, Schema } from '@nestjs/mongoose';
+import { MongooseModule } from '@nestjs/mongoose';
+import { HttpModule } from '@nestjs/axios';
 
 import { PokemonService } from './pokemon.service';
 import { PokemonController } from './pokemon.controller';
@@ -7,6 +8,7 @@ import { Pokemon, PokemonSchema } from './pokemon.entity';
 
 @Module({
   imports: [
+    HttpModule,
     MongooseModule.forFeature([
       {
         name: Pokemon.name,

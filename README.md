@@ -39,7 +39,7 @@ $ pnpm run start:prod
 - nest -h                           : Ver Comandos de Nest
 - nest g mo path/name               : Generar un Modulo
 - nest g co path/name               : Generar un Controlador
-- nest g pipe path/name             : Generar un Pipe
+- nest g pi path/name               : Generar un Pipe
 
 
 ## 5. Bibliotecas usadas para este projecto
@@ -50,6 +50,7 @@ $ pnpm i class-validator class-transformer
 $ pnpm i faker@5.5.3
 $ pnpm i @nestjs/serve-static
 $ pnpm install --save @nestjs/mongoose mongoose
+$ pnpm i --save @nestjs/axios
 ```
 
 ## 6. Depedencia de Desarrollo

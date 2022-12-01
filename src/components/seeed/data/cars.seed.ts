@@ -1,7 +1,7 @@
 import { v4 as uuid } from 'uuid';
 import * as Faker from 'faker';
 
-import { Car } from '../../components/cars/interfaces/car.interface';
+import { Car } from '../../cars/interfaces/car.interface';
 
 export const CARS_SEED: Car[] = [
   {

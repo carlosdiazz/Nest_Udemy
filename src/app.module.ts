@@ -5,7 +5,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 
 import { CarsModule } from './components/cars/cars.module';
 import { BrandsModule } from './components/brands/brands.module';
-import { SeeedModule } from './seeed/seeed.module';
+import { SeeedModule } from './components/seeed/seeed.module';
 import { PokemonModule } from './components/pokemon/pokemon.module';
 
 @Module({
