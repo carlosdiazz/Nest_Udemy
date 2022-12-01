@@ -1,0 +1,31 @@
+_id: req_2088d394177a42e6bb7f5b662dab50fa
+type: Request
+parentId: fld_83b6efda871c46e581de4e9ff5fc3031
+modified: 1669924215648
+created: 1669921514141
+url: "{{ _.URL }}/api/pokemon"
+name: getAllQueryPokemonm
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_8f49033781734e9e8d4e8e90f7a74a52
+    name: limit
+    value: "3"
+    description: ""
+    disabled: false
+  - id: pair_f6c9502ceca24fb788053e53f20f9ac6
+    name: skip
+    value: "10"
+    description: ""
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1669825974444
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

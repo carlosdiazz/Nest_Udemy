@@ -1,17 +1,17 @@
-_id: req_763d31a691c34aa1955d2876d052f903
+_id: req_df90444b991c4e79803aa5762f69d581
 type: Request
-parentId: fld_83b6efda871c46e581de4e9ff5fc3031
-modified: 1669908626981
-created: 1669826011751
-url: "{{ _.URL }}/api/pokemon/6388c826fb6f55692aa4cfc5"
-name: deletePokemon
+parentId: fld_39518d9db58144f59fbf24cce4f7cb42
+modified: 1669910369952
+created: 1669904387809
+url: "{{ _.URL }}/api/pokemon/seed"
+name: seedPokemon
 description: ""
-method: DELETE
+method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1669825939115
+metaSortKey: -1669825974494
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

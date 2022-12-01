@@ -1,9 +1,9 @@
 _id: req_80f61ab06fb64adda44102fcb321fbba
 type: Request
 parentId: fld_83b6efda871c46e581de4e9ff5fc3031
-modified: 1669842596386
+modified: 1669904411383
 created: 1669826001299
-url: "{{ _.URL }}/api/pokemon/6d"
+url: "{{ _.URL }}/api/pokemon/6387b6b022007afe802b737c"
 name: getOnePokemon
 description: ""
 method: GET
