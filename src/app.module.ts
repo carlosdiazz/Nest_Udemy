@@ -2,14 +2,26 @@ import { join } from 'path';
 import { Module } from '@nestjs/common';
 import { ServeStaticModule } from '@nestjs/serve-static';
 import { MongooseModule } from '@nestjs/mongoose';
+import { ConfigModule } from '@nestjs/config';
 
 import { CarsModule } from './components/cars/cars.module';
 import { BrandsModule } from './components/brands/brands.module';
 import { SeeedModule } from './components/seeed/seeed.module';
 import { PokemonModule } from './components/pokemon/pokemon.module';
 
+import {
+  EnvConfiguration,
+  enviroments,
+  JoiValidationENV,
+} from './config/app.config';
 @Module({
   imports: [
+    ConfigModule.forRoot({
+      envFilePath: enviroments[process.env.NODE_ENV] || '.env',
+      load: [EnvConfiguration],
+      validationSchema: JoiValidationENV,
+      isGlobal: true,
+    }),
     CarsModule,
     BrandsModule,
     SeeedModule,

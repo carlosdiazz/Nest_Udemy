@@ -6,22 +6,52 @@
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
 
-## 1. Description
+## Description
 
 Esto es una prueba del curso tommado por fernando herrera sobre Nest en Udemy
 
-## 2. Installation Dev
+## Installation
 1. Instalar las librerias
 ```bash
 $ pnpm install
 ```
 
-2. Subir la base de dato
+2. Subir la base de dato si queremos usarla con Docker
 ```bash
 $ docker-compose up -d
 ```
+## Configurar variables de entornos
+Debemos de clonar el archivo ```.env.example``` y crear un archivo ```.env``` con las variables de entornos que se encuentra en el ejemplo anterior.
 
-## 3. Running the app
+
+## Comandos Basicos del Cli de Nest
+```bash
+$ nest -h                           : Ver Comandos de Nest
+$ nest g mo path/name               : Generar un Modulo
+$ nest g co path/name               : Generar un Controlador
+$ nest g pi path/name               : Generar un Pipe
+```
+
+## Bibliotecas usadas para este projecto
+```bash
+$ pnpm i uuid
+$ pnpm i webpack@^5.0.0
+$ pnpm i class-validator class-transformer
+$ pnpm i faker@5.5.3
+$ pnpm i @nestjs/serve-static
+$ pnpm i --save @nestjs/mongoose mongoose
+$ pnpm i --save @nestjs/axios
+$ pnpm i @nestjs/config
+$ pnpm i joi
+```
+
+## Depedencia de Desarrollo
+```bash
+$ pnpm i --save-dev @types/uuid
+$ pnpm i @types/faker@5.5.9
+```
+
+## Running the app
 
 ```bash
 # development
@@ -32,29 +62,4 @@ $ pnpm run start:dev
 
 # production mode
 $ pnpm run start:prod
-```
-
-## 4. Comandos Basicos del Cli de Nest
-
-- nest -h                           : Ver Comandos de Nest
-- nest g mo path/name               : Generar un Modulo
-- nest g co path/name               : Generar un Controlador
-- nest g pi path/name               : Generar un Pipe
-
-
-## 5. Bibliotecas usadas para este projecto
-```bash
-$ pnpm i uuid
-$ pnpm i webpack@^5.0.0
-$ pnpm i class-validator class-transformer
-$ pnpm i faker@5.5.3
-$ pnpm i @nestjs/serve-static
-$ pnpm install --save @nestjs/mongoose mongoose
-$ pnpm i --save @nestjs/axios
-```
-
-## 6. Depedencia de Desarrollo
-```bash
-$ pnpm i --save-dev @types/uuid
-$ pnpm i @types/faker@5.5.9
 ```
