@@ -63,3 +63,19 @@ $ pnpm run start:dev
 # production mode
 $ pnpm run start:prod
 ```
+##### Cree la imagen en docker
+```bash
+docker-compose -f docker-compose.prod.yaml --env-file .prod.env up --build
+```
+##### Corro la imagen de docker
+```bash
+docker-compose -f docker-compose.prod.yaml --env-file .prod.env up -d
+```
+
+## Production Build
+1. Crear el archivo ```.prod.env```
+2. Llenar el aruchi de las variables
+3. Crear la nueva imagen con el siguiente comando
+  ```docker-compose -f docker-compose.prod.yaml --env-file .prod.env up --build```
+4. Ejecutar la imagen
+  ```docker-compose -f docker-compose.prod.yaml --env-file .prod.env up -d```

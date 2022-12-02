@@ -1,0 +1,45 @@
+version: '3'
+
+services:
+
+  pokedexapp:
+    depends_on:
+      - db
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: pokedex-docker
+    container_name: pokedexapp
+    restart: always
+    ports:
+      - "${PORT}:${PORT}"
+    environment:
+      PORT: ${PORT}
+      MONGO_URI: ${MONGO_URI}
+      NODE_ENV: ${NODE_ENV}
+
+
+  db:
+    image: mongo:5
+    restart: always
+    container_name: mongo-poker
+    environment:
+      #MONGO_INITDB_ROOT_USERNAME: ${MONGO_USERNAME}
+      #MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD}
+      MONGO_INITDB_DATABASE: ${MONGO_DATABASE}
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongo:/data/db
+  # express:
+  #     image: mongo-express
+  #     restart: always
+  #     ports:
+  #       - 8081:8081
+  #     depends_on:
+  #       - mongo
+  #     environment:
+  #       ME_CONFIG_MONGODB_ADMINUSERNAME: root
+  #       ME_CONFIG_MONGODB_ADMINPASSWORD: root
+  #       ME_CONFIG_MONGODB_URL: mongodb://admin:admin@mongo:27017/
+

@@ -1,0 +1,12 @@
+mongo_data/
+node_modulesdist/
+.gitignore
+.git/
+
+.prod.env
+Dockerfile
+.dockerignore
+node_modules
+npm-debug.log
+dist
+.insomia

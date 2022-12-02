@@ -19,7 +19,7 @@ export const JoiValidationENV = Joi.object({
   MONGO_URI: Joi.required(),
   PORT: Joi.number().default(3000),
   NODE_ENV: Joi.required(),
-  MONGO_USERNAME: Joi.string().required(), //Docker Mongo
-  MONGO_PASSWORD: Joi.string().required(), //Docker Mongo
-  MONGO_DATABASE: Joi.string().required(), //Docker Mongo
+  //MONGO_USERNAME: Joi.string().required(), //Docker Mongo
+  //MONGO_PASSWORD: Joi.string().required(), //Docker Mongo
+  //MONGO_DATABASE: Joi.string().required(), //Docker Mongo
 });

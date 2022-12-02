@@ -36,6 +36,8 @@ lerna-debug.log*
 
 #Variables Entrno
 .env
+.prod.env
 
 #Carpertas de Bases de Datos
 mongo_data
+mongo

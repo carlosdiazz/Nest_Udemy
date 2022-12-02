@@ -20,10 +20,9 @@ async function main() {
 
   app.setGlobalPrefix('api'); //Aqui expecifico que todas mis rutas comenzaran con API
   app.enableCors();
-  await app.listen(process.env.PORT || 3000, '0.0.0.0', () => {
-    console.log(
-      `👍El server esta arriba en el puerto: ${process.env.PORT || 3000} 👍💪`,
-    );
+  const PORT = process.env.PORT || 3000;
+  await app.listen(PORT, '0.0.0.0', () => {
+    console.log(`👍El server esta arriba en el puerto: ${PORT} 👍💪`);
   });
 }
 main();
