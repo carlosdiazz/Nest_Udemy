@@ -10,19 +10,19 @@
 
 Esto es una prueba del curso tommado por fernando herrera sobre Nest en Udemy
 
-## Installation
-1. Instalar las librerias
-```bash
-$ pnpm install
-```
+## Installation DEV
+
+###### Configurar variables de entornos
+Debemos de clonar el archivo ```.env.example``` y crear un archivo ```.env``` con las variables de entornos que se encuentra en el ejemplo anterior.
+
+
+1. Instalar las librerias ```$ pnpm install```
 
 2. Subir la base de dato si queremos usarla con Docker
 ```bash
-$ docker-compose up -d
+  $ docker-compose -f docker-compose.yaml up -d
 ```
-## Configurar variables de entornos
-Debemos de clonar el archivo ```.env.example``` y crear un archivo ```.env``` con las variables de entornos que se encuentra en el ejemplo anterior.
-
+3. Ejecutar el app en desarrollo ```pnpm run dev```
 
 ## Comandos Basicos del Cli de Nest
 ```bash
@@ -51,18 +51,6 @@ $ pnpm i --save-dev @types/uuid
 $ pnpm i @types/faker@5.5.9
 ```
 
-## Running the app
-
-```bash
-# development
-$ pnpm run start
-
-# watch mode
-$ pnpm run start:dev
-
-# production mode
-$ pnpm run start:prod
-```
 ##### Cree la imagen en docker
 ```bash
 docker-compose -f docker-compose.prod.yaml --env-file .prod.env up --build
@@ -72,7 +60,7 @@ docker-compose -f docker-compose.prod.yaml --env-file .prod.env up --build
 docker-compose -f docker-compose.prod.yaml --env-file .prod.env up -d
 ```
 
-## Production Build
+## Production Build con Docker
 1. Crear el archivo ```.prod.env```
 2. Llenar el aruchi de las variables
 3. Crear la nueva imagen con el siguiente comando

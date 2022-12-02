@@ -11,8 +11,8 @@ services:
       MONGO_INITDB_DATABASE: ${MONGO_DATABASE}
     ports:
       - 27017:27017
-    #volumes:
-    #  - ./mongo_data:/data/db
+    volumes:
+      - ./mongo_data:/data/db
   express:
       image: mongo-express
       restart: always
