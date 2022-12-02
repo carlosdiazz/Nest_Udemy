@@ -1,7 +1,7 @@
 import { join } from 'path';
 import { Module } from '@nestjs/common';
 import { ServeStaticModule } from '@nestjs/serve-static';
-import { MongooseModule } from '@nestjs/mongoose';
+//import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule } from '@nestjs/config';
 
 import { CarsModule } from './components/cars/cars.module';
@@ -14,6 +14,8 @@ import {
   enviroments,
   JoiValidationENV,
 } from './config/app.config';
+import { MongoModule } from './database/mongo.module';
+
 @Module({
   imports: [
     ConfigModule.forRoot({
@@ -22,6 +24,7 @@ import {
       validationSchema: JoiValidationENV,
       isGlobal: true,
     }),
+    MongoModule,
     CarsModule,
     BrandsModule,
     SeeedModule,
@@ -29,7 +32,7 @@ import {
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '..', 'public'),
     }),
-    MongooseModule.forRoot('mongodb://admin:admin@localhost:27017/'),
+    //MongooseModule.forRoot('mongodb://admin:admin@localhost:27017/'),
   ],
   controllers: [],
   providers: [],
